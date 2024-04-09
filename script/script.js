@@ -7,7 +7,7 @@ function doLogin()    {
   else {
 
   //chiamiamo il server per effettuare la verifica
-fetch('https://www.cacciapi.altervista.org/login.php/loginIpad' , { 
+fetch('https://www.cacciaapi.altervista.org/login.php/loginIpad' , { 
   method: 'POST', // o 'GET' 
   headers: {
     'Content-Type':'application/json',
